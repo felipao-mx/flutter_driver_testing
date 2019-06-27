@@ -66,6 +66,7 @@ jobs:
 
         # install most current (released or unreleased) version of Sylph
 #        - pub global activate sylph
+        - flutter packages get
 
       script:
         - sylph
