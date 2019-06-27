@@ -65,7 +65,7 @@ jobs:
         - cp -r .aws ~
 
         # install most current (released or unreleased) version of Sylph
-        - pub global activate --source path .
+        - pub global activate sylph
 
       script:
         - sylph
