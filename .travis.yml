@@ -65,8 +65,7 @@ jobs:
         - cp -r .aws ~
 
         # install most current (released or unreleased) version of Sylph
-#        - pub global activate sylph
-        - flutter packages get
+        - pub global activate --source git https://github.com/mmcc007/sylph.git
 
       script:
         - sylph

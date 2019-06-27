@@ -30,10 +30,6 @@ dev_dependencies:
   flutter_driver:
     sdk: flutter
   test: ^1.5.2
-  sylph:
-    git:
-      url: git://github.com/mmcc007/sylph.git
-      ref: 0.0.9
 
 
 
